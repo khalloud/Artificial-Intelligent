@@ -1,4 +1,4 @@
-# X-Bookmarks Intelligence Engine 🧠
+# Artificial Intelligent 🧠
 
 Transform your scattered X (Twitter) bookmarks into a structured, searchable, and AI-curated knowledge base.
 

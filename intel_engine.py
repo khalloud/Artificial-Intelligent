@@ -100,7 +100,7 @@ HTML_TEMPLATE = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>X Knowledge Base Dashboard</title>
+    <title>Artificial Intelligent Dashboard</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
@@ -144,7 +144,7 @@ HTML_TEMPLATE = """
     <div class="min-h-screen p-6 md:p-12">
         <header class="max-w-7xl mx-auto mb-12">
             <h1 class="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent mb-4">
-                My X Knowledge Base
+                Artificial Intelligent
             </h1>
             <p class="text-slate-400 text-lg">Thousands of insights, curated by AI.</p>
         </header>
