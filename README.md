@@ -31,8 +31,16 @@ This tool processes raw X bookmark export data and uses Gemini AI to:
 
 ## 📖 Usage
 
-1. **Export your bookmarks**: Use a tool (like the "X Bookmark Extractor" Chrome Extension) to get your bookmarks as a `json` file.
+### Part 1: Exporting Bookmarks
+1. Open Google Chrome and go to `chrome://extensions/`.
+2. Enable **Developer mode** in the top right corner.
+3. Click **Load unpacked** and select the `chrome-extension` folder included in this repository.
+4. Go to `x.com/i/bookmarks`, click the extension icon, and extract your bookmarks to a `bookmarks.json` file.
+
+### Part 2: Running the Engine
+1. Place the `bookmarks.json` file into the main folder.
 2. **Run the Engine**:
+
    ```bash
    python3 intel_engine.py --input bookmarks.json --output my_knowledge_base.html
    ```
